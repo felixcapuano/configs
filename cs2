@@ -595,3 +595,8 @@ xbox_throttlebias "100"
 xbox_throttlespoof "200"
 zoom_sensitivity_ratio_joystick "1.0"
 zoom_sensitivity_ratio_mouse "1.0"
+
+
+bind "v" "+crosshairsmoke"
+alias "-crosshairsmoke" "cl_crosshairsize 1.5;cl_crosshairdot 0;cl_crosshairgap -2.8"
+alias "+crosshairsmoke" "cl_crosshairsize 1337;cl_crosshairdot 1;cl_crosshairgap 10"
